@@ -1,0 +1,9 @@
+Please input the 
+amount of bills
+for deposit
+
+Press [ENTER]
+to input bills
+
+
+Input below:

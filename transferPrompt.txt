@@ -1,0 +1,9 @@
+Enter your transfer
+amount 
+Press [ENTER] to 
+confirm
+
+
+
+
+Input below:

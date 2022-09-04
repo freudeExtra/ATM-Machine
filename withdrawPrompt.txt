@@ -1,0 +1,9 @@
+Enter the amount
+divisible by 
+100 and press
+[ENTER] key 
+
+
+
+
+Input below:
