@@ -47,65 +47,65 @@ class atm:
         self.input_box = Entry(m_UpperFrameMid, state=DISABLED, font=('arial', 18, 'bold'))
         
         #========== Side arrows ===============#    
-        self.img_arrow_Left = ImageTk.PhotoImage(Image.open('arrowL.png'))
+        self.img_arrow_Left = ImageTk.PhotoImage(Image.open('button-icons/arrowL.png'))
         self.btnArrowL1 = Button(m_UpperFrameLeft, width=160, height=60, state=DISABLED, image=self.img_arrow_Left)
         self.btnArrowL2 = Button(m_UpperFrameLeft, width=160, height=60, state=DISABLED, image=self.img_arrow_Left)
         self.btnArrowL3 = Button(m_UpperFrameLeft, width=160, height=60, state=DISABLED, image=self.img_arrow_Left)
         self.btnArrowL4 = Button(m_UpperFrameLeft, width=160, height=60, state=DISABLED, image=self.img_arrow_Left)
             
-        self.img_arrow_Right = ImageTk.PhotoImage(Image.open('arrowR.png'))
+        self.img_arrow_Right = ImageTk.PhotoImage(Image.open('button-icons/arrowR.png'))
         self.btnArrowR1 = Button(m_UpperFrameRight, width=160, height=60, state=DISABLED, image=self.img_arrow_Right)
         self.btnArrowR2 = Button(m_UpperFrameRight, width=160, height=60, state=DISABLED, image=self.img_arrow_Right)
         self.btnArrowR3 = Button(m_UpperFrameRight, width=160, height=60, state=DISABLED, image=self.img_arrow_Right)
         self.btnArrowR4 = Button(m_UpperFrameRight, width=160, height=60, state=DISABLED, image=self.img_arrow_Right)
             
             #======================PinNumberButton=======================
-        self.img1 = ImageTk.PhotoImage(Image.open('One.png'))
+        self.img1 = ImageTk.PhotoImage(Image.open('button-icons/One.png'))
         self.btn1 = Button(m_BottomFrame, width=160, height=60, state=NORMAL, image=self.img1)
             
-        self.img2 = ImageTk.PhotoImage(Image.open('Two.png'))
+        self.img2 = ImageTk.PhotoImage(Image.open('button-icons/Two.png'))
         self.btn2 = Button(m_BottomFrame, width=160, height=60, state=NORMAL, image=self.img2)
             
-        self.img3 = ImageTk.PhotoImage(Image.open('Three.png'))
+        self.img3 = ImageTk.PhotoImage(Image.open('button-icons/Three.png'))
         self.btn3 = Button(m_BottomFrame, width=160, height=60, state=NORMAL, image=self.img3)
             
-        self.imgCE = ImageTk.PhotoImage(Image.open('Cancel.png'))
+        self.imgCE = ImageTk.PhotoImage(Image.open('button-icons/Cancel.png'))
         self.btnCancel = Button(m_BottomFrame, width=160, height=60, state=NORMAL, command=self.cancel, image=self.imgCE)
             #======================
-        self.img4 = ImageTk.PhotoImage(Image.open('Four.png'))
+        self.img4 = ImageTk.PhotoImage(Image.open('button-icons/Four.png'))
         self.btn4 = Button(m_BottomFrame, width=160, height=60, state=NORMAL, image=self.img4)
             
-        self.img5 = ImageTk.PhotoImage(Image.open('Five.png'))
+        self.img5 = ImageTk.PhotoImage(Image.open('button-icons/Five.png'))
         self.btn5 = Button(m_BottomFrame, width=160, height=60, state=NORMAL, image=self.img5)
             
-        self.img6 = ImageTk.PhotoImage(Image.open('Six.png'))
+        self.img6 = ImageTk.PhotoImage(Image.open('button-icons/Six.png'))
         self.btn6 = Button(m_BottomFrame, width=160, height=60, state=NORMAL, image=self.img6)
             
-        self.imgCL = ImageTk.PhotoImage(Image.open('Clear.png'))
+        self.imgCL = ImageTk.PhotoImage(Image.open('button-icons/Clear.png'))
         self.btnClear = Button(m_BottomFrame, width=160, height=60, state=NORMAL, command=self.Clear, image=self.imgCL)
             #======================
-        self.img7 = ImageTk.PhotoImage(Image.open('Seven.png'))
+        self.img7 = ImageTk.PhotoImage(Image.open('button-icons/Seven.png'))
         self.btn7 = Button(m_BottomFrame, width=160, height=60, state=NORMAL,  image=self.img7)
             
-        self.img8 = ImageTk.PhotoImage(Image.open('Eight.png'))
+        self.img8 = ImageTk.PhotoImage(Image.open('button-icons/Eight.png'))
         self.btn8 = Button(m_BottomFrame, width=160, height=60, state=NORMAL,  image=self.img8)
             
-        self.img9 = ImageTk.PhotoImage(Image.open('Nine.png'))
+        self.img9 = ImageTk.PhotoImage(Image.open('button-icons/Nine.png'))
         self.btn9 = Button(m_BottomFrame, width=160, height=60, state=NORMAL, image=self.img9)
             
-        self.imgEnter = ImageTk.PhotoImage(Image.open('Enter.png'))
+        self.imgEnter = ImageTk.PhotoImage(Image.open('button-icons/Enter.png'))
         self.btnEnter = Button(m_BottomFrame, width=160, height=60, state=NORMAL,  command=self.login, image=self.imgEnter)
             #======================
-        self.imgEM1 = ImageTk.PhotoImage(Image.open('Empty.png'))
+        self.imgEM1 = ImageTk.PhotoImage(Image.open('button-icons/Empty.png'))
         self.btnEmpty1 = Button(m_BottomFrame, width=160, height=60, state=DISABLED,  image=self.imgEM1)
             
-        self.img0 = ImageTk.PhotoImage(Image.open('Zero.png'))
+        self.img0 = ImageTk.PhotoImage(Image.open('button-icons/Zero.png'))
         self.btn0 = Button(m_BottomFrame, width=160, height=60, state=NORMAL, image=self.img0)
             
-        self.imgEM2 = ImageTk.PhotoImage(Image.open('Empty.png'))
+        self.imgEM2 = ImageTk.PhotoImage(Image.open('button-icons/Empty.png'))
         self.btnEmpty2 = Button(m_BottomFrame, width=160, height=60, state=DISABLED,  image=self.imgEM2)
             
-        self.imgEM3 = ImageTk.PhotoImage(Image.open('Empty.png'))
+        self.imgEM3 = ImageTk.PhotoImage(Image.open('button-icons/Empty.png'))
         self.btnEmpty3 = Button(m_BottomFrame, width=160, height=60, state=DISABLED,  image=self.imgEM3)
          #====================== OTHER WIDGETS=============
         
@@ -114,7 +114,7 @@ class atm:
     def gui(self):
         self.txtReceipt.delete(1.0, END)
         self.input_box.delete(0, END)
-        self.exitPrompt = ImageTk.PhotoImage(Image.open('login.png')) 
+        self.exitPrompt = ImageTk.PhotoImage(Image.open('image-display/login.png')) 
         self.txtReceipt.image_create(END, image=self.exitPrompt)
         
         self.ui_amount = 0
@@ -185,14 +185,14 @@ class atm:
         self.btnArrowR3.configure(state=NORMAL, command=self.pinchange)
         self.btnArrowR4.configure(state=DISABLED, command=self.cancel)
         # Insert Main Menu 
-        self.text_file = open('mainMenu.txt', 'r')
+        self.text_file = open('const-text/mainMenu.txt', 'r')
         self.text = self.text_file.read()
         self.txtReceipt.insert(END, self.text)
         self.text_file.close()
     def exit_prompt(self):
         self.txtReceipt.delete(1.0, END)
         self.input_box.configure(state=DISABLED)
-        self.exitPrompt = ImageTk.PhotoImage(Image.open('exitPrompt.png')) 
+        self.exitPrompt = ImageTk.PhotoImage(Image.open('image-display/exitPrompt.png')) 
         self.txtReceipt.image_create(END, image=self.exitPrompt)
         self.app.after(5000, self.gui)
     def Clear(self):
@@ -203,7 +203,7 @@ class atm:
         Cancel = tkinter.messagebox.askyesno("ATM", "Confirm if you want to cancel")
         if Cancel > 0:
             self.txtReceipt.delete(1.0, END)
-            self.exitPrompt = ImageTk.PhotoImage(Image.open('exitPrompt.png')) 
+            self.exitPrompt = ImageTk.PhotoImage(Image.open('image-display/exitPrompt.png')) 
             self.txtReceipt.image_create(END, image=self.exitPrompt)
             
             self.app.after(5000, self.app.destroy)
@@ -244,7 +244,7 @@ class atm:
         self.txtReceipt.delete(1.0, END)
         self.txtReceipt.insert(END, 'Your current balance is \n')
         self.txtReceipt.insert(END, '\t ₽' + str(self.balance)+ '\n\n\n\n\n')
-        self.img_backoption = ImageTk.PhotoImage(Image.open('backtomainmenu.png'))
+        self.img_backoption = ImageTk.PhotoImage(Image.open('image-display/backtomainmenu.png'))
         self.txtReceipt.image_create(END, image=self.img_backoption)
         
         self.btnArrowL1.configure(state=DISABLED)
@@ -283,7 +283,7 @@ class atm:
         if self.ui_amount % 100 == 0:
             self.txtReceipt.delete(1.0, END)
             self.balance = self.balance - self.ui_amount
-            self.confirmation = ImageTk.PhotoImage(Image.open('confirmation.png'))
+            self.confirmation = ImageTk.PhotoImage(Image.open('image-display/confirmation.png'))
             self.txtReceipt.image_create(END, image=self.confirmation)
             
             self.btnArrowL1.configure(state=DISABLED)
@@ -299,7 +299,7 @@ class atm:
     def withdrawcash(self):
         self.txtReceipt.delete(1.0, END)
         # Menu - from Text File
-        self.text_file = open('withdrawPrompt.txt', 'r')
+        self.text_file = open('const-text/withdrawPrompt.txt', 'r')
         self.text = self.text_file.read()
          
         self.txtReceipt.insert(END, self.text)
@@ -365,7 +365,7 @@ class atm:
         self.txtReceipt.delete(1.0, END)
         self.input_box.delete(0, END) 
         # Menu - from Text File
-        self.text_file = open('depositPrompt.txt', 'r')
+        self.text_file = open('const-text/depositPrompt.txt', 'r')
         self.text = self.text_file.read()
         
         self.btnArrowL1.configure(state=DISABLED)
